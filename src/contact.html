@@ -59,33 +59,43 @@
 
         <header>
             <h2 class="text-pink-700 text-4xl font-semibold text-center">Contact us</h2>
-            <h3 class="text-2sm text-gray-500 mt-6 text-center">Our support team are always available to aide, so if you have any difficulty in any time of your transactions with us, please do well to reach to us</h3>
+            <h3 class="text-sm text-gray-500 mt-6 text-center">Our support team are always available to aide, so if you have any difficulty in any time of your transactions with us, please do well to reach to us on any of the below platforms</h3>
         </header>
         <div class="grid grid-cols-1 gap-10">
-            <div class=" flex border-pink-200 justify-evenly my-5">
+            <div class=" flex border-pink-200 justify-evenly mt-10">
                 <a href="#">
-                    <span>Facebook</span>
+                    <span>
+                        <img src="../dist/img/facebook.png">
+                    </span>
                 </a>
                 <a href="#">
-                    <span>Twitter</span>
+                    <span>
+                        <img src="../dist/img/twitter (1).png" alt="">
+                    </span>
                 </a>
                 <a href="#">
-                    <span>Instagram</span>
+                    <span>
+                        <img src="../dist/img/instagram.png" alt="">
+                    </span>
                 </a>
                 <a href="#">
-                    <span>WhatsApp</span>
+                    <span>
+                        <img src="../dist/img/whatsapp.png" alt="">  
+                    </span>
                 </a>
             </div>
             <div class="">
-                <form action="" class="flex flex-col gap-5">
-                    <input type="text" name="email" id="email" placeholder="Enter Email"  class="p-2 shadow-md">
-                    <input type="text-area" name="Message" placeholder="Type your Message" id="Message" class="p-2 h-32 shadow-md">
-                    <input type="button" value="send Message" class="bg-pink-700 text-white py-2 px-3 cursor-pointer">
+                <form action="" class="flex flex-row-reverse items-center sm:flex-row sm:items-center">
+                    <div class="block">
+                        <input type="text" name="email" id="email" placeholder="Enter Email"  class="w-full px-2 py-3 mb-3 shadow-md block">
+                        <textarea cols="30" rows="8" name="Message" placeholder="Type your Message" id="Message" class="px-2 shadow-md block mb-3"></textarea>
+                        <input type="button" value="send Message" class="bg-pink-700 text-white py-2 px-4 cursor-pointer hover:bg-pink-600 hover:font-bold">
+                    </div>
                 </form>
             </div>            
         </div>    
     </main>
   </div>
-  <script src="../dist//index.js"></script>
+  <script src="../dist/index.js"></script>
 </body>
 </html>
